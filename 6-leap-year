@@ -5,7 +5,7 @@ public Boolean isLeapYear(Integer year) {
             return true;
         }
         // Check if the year is divisible by 4 but not by 100
-        else if (year % 4 == 0 && year % 100 != 0) {
+        else if (year % 4 == 0 && year % 100 == 0) {
             return true;
         }
         // Otherwise, it's not a leap year
